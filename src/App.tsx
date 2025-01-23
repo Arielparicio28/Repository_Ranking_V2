@@ -1,3 +1,4 @@
+import Header from "./Components/Header"
 
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <>
-     <p className="text-red-400">Repositorios famosos</p>
+     <Header/>
     </>
   )
 }
