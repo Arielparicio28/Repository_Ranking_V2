@@ -5,12 +5,12 @@
 @layer base {
     :root {
       --color-background: 166 232 210; /* fondo claro */
-      --color-h1: 31 41 55;  /* h1 claro */
+      --color-h1: 59 130 246;  /* h1 claro */
       /* ... */
     }
     .dark {
       --color-background: 7, 7, 7; /* Fondo oscuro */
-      --color-h1: 231, 109, 87; /* h1 oscuro */
+      --color-h1: 251, 146, 60; /* h1 oscuro */
     }
   }
 

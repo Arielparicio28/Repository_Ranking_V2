@@ -18,7 +18,7 @@ export const ThemeSwitcher = () => {
     <button
       onClick={toggleTheme}
       className={`fixed top-4 right-4 p-2 md:p-3 rounded-full 
-                  ${theme === "light" ? "bg-blue-500 text-white" : "bg-yellow-400 text-black"} 
+                  ${theme === "light" ? "bg-blue-500 text-white" : "bg-orange-400 text-black"} 
                   hover:shadow-lg transition-all transform 
                   ${isSwitching ? "scale-110" : "scale-100"}
                   sm:p-1 sm:top-3 sm:right-3`}
