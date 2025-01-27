@@ -4,9 +4,17 @@
 
 @layer base {
     :root {
-      --color-background: 7 7 7;
-      --color-h1: 231 109 87;
+      --color-background: 166 232 210; /* fondo claro */
+      --color-h1: 31 41 55;  /* h1 claro */
       /* ... */
     }
+    .dark {
+      --color-background: 7, 7, 7; /* Fondo oscuro */
+      --color-h1: 231, 109, 87; /* h1 oscuro */
+    }
   }
+
+  
+
+  
   
